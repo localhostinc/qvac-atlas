@@ -118,7 +118,7 @@ The independent human reviewer can use this Mac without credentials or private
 physical-report access. From the final `main` branch and Node 22, run:
 
 ```sh
-cd /Users/samaroomini/qvac-atlas
+cd "$HOME/qvac-atlas"
 git status --short --branch
 git rev-parse HEAD
 pnpm install --offline --frozen-lockfile
@@ -133,7 +133,7 @@ command must exit zero, and the digest must match the frozen value above. Then r
 `docs/launch/reviewer-checklist.md`, inspect the built site at desktop, narrow
 viewport, 200% zoom, and keyboard-only navigation, and return the bounded verdict
 template in that checklist. Do not open or copy anything under
-`/Users/samaroomini/qvac-atlas-private`; it is not launch evidence.
+`~/qvac-atlas-private`; it is not launch evidence.
 
 ## Exact unresolved gates
 
